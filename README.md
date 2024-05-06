@@ -1,1 +1,1 @@
-# Bharatnatyam Mudra Classifier
+# Bharatanatyam Mudra Classifier
