@@ -27,12 +27,9 @@ while True:
     ret, frame = cap.read()
     if not ret:
         break
-    
-     # Convert frame from BGR to RGB
-    frame_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
 
     # Convert NumPy array to PIL Image
-    frame_pil = Image.fromarray(frame_rgb)
+    frame_pil = Image.fromarray(frame)
 
     # Apply transformations
     input_tensor = transform(frame_pil)
