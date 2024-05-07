@@ -163,3 +163,7 @@ cython_debug/
 *.pth
 *.zip
 *.pt
+test_images
+test_labels
+images
+labels

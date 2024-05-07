@@ -9,7 +9,7 @@ def extract_gesture_names():
         dict: A dictionary mapping class indices to gesture names.
     """
     # Load the dataset
-    dataset = datasets.ImageFolder(root="data")
+    dataset = datasets.ImageFolder(root="mudra_data")
 
     # Get the class-to-index mapping
     idx_to_class = {v: k for k, v in dataset.class_to_idx.items()}
