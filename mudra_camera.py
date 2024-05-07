@@ -13,7 +13,7 @@ hands = mp_hands.Hands()
 # Initialize the Mediapipe Drawing module
 mp_drawing = mp.solutions.drawing_utils
 
-# Load the pretrained ResNet model and modify it for your gesture classification
+# Load the pretrained ResNet model and modify it for 51 classes
 model = models.resnet18(pretrained=False)
 num_classes = 51
 num_features = model.fc.in_features
